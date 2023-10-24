@@ -34,3 +34,4 @@ cd build
 cmake ..
 ccmake ..
 ```
+and change the value of build type
