@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sublibrary1/include/sublib1/sublib1.h
+
+../sublibrary2/include/sublib2/sublib2.h
+iostream
+-
+
+/home/yanxw/cmake_test/subdir_cmakefile_include/A-basic/subbinary/main.cpp
+sublib1/sublib1.h
+/home/yanxw/cmake_test/subdir_cmakefile_include/A-basic/subbinary/sublib1/sublib1.h
+sublib2/sublib2.h
+/home/yanxw/cmake_test/subdir_cmakefile_include/A-basic/subbinary/sublib2/sublib2.h
+

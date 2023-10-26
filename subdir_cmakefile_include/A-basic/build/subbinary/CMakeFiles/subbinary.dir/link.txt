@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/subbinary.dir/main.cpp.o  -o subbinary  ../sublibrary1/libsublibrary1.a 
